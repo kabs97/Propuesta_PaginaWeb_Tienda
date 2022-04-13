@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tops.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/reset.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>SHEIN</title>
+</head>
+
+<body>
+
+
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="home.html">SHEIN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="tops.html">TOPS</a>
+                    <a class="nav-item nav-link" href="bottoms.html">BOTTOMS</a>
+                    <a class="nav-item nav-link deportivaNav" href="deportiva.html">ROPA DEPORTIVA</a>
+                    <a class="nav-item nav-link envioNav" href="envio.html">INFORMACIÓN DE ENVÍO</a>
+                    <a class="nav-item nav-link servicioNav" href="servicio.html">SERVICIO AL CLIENTE</a>
+
+                    <!--  BOTONES DE IDIOMAS-->
+                    <div class="langWrap d-flex">
+                        <li class="nav-item">
+                            <!--  ATRIBUTO Language='espanish-->
+                            <a href="#" language='espanish' class="active"><img class="img-fluid" src="img/es.webp" alt="Español"></a>
+                        </li>
+                        <!--  ATRIBUTO language='english'-->
+                        <li class="nav-item">
+                            <a href="#" language='english'> <img class="img-fluid" src="img/eu.webp" alt="Ingles"></a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <section id="tops">
+
+        <div class="container mt-5 text-center ">
+            <div>
+                <h1 class="seleccionTops">SELECCIÓN DE ROPA DEPORTIVA</h1>
+            </div>
+
+            <hr class="mt-4 mb-4">
+
+            <div class="pt-2"></div>
+
+
+
+            <div class="row">
+                <div class="col-sm-4 ">
+                    <img id="myPhoto1" onclick="foto1()" src="img/aw1.png" class="img-fluid mb-2" width="300">
+                    <p class="font-weight-bold text-center topUno">Leggings deportivos de banda ancha de space dye</p>
+                    <p class="precio">$13.00</p>
+
+                </div>
+
+                <div class="col-sm-4">
+                    <img id="myPhoto2" onclick="foto2()" src="img/awDos1.png" class="img-fluid mb-2" width="300">
+                    <p class="font-weight-bold text-center topDos">SHEIN BASICS Sujetador deportivo de espalda con abertura</p>
+                    <p class="precio">$13.00</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <img id="myPhoto3" onclick="foto3()" src="img/awTres1.png" class="img-fluid mb-2" width="300">
+                    <p class="font-weight-bold text-center topTres">Camiseta deportiva de malla en contraste unicolor</p>
+                    <p class="precio">$9.00</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <h1 class="text-center">©2009-2021 SHEIN All Rights Reserved</h1>
+    </footer>
+
+    <script src="js/deportiva.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+
+
+</body>
+
+</html>

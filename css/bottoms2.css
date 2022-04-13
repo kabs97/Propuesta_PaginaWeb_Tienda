@@ -1,0 +1,152 @@
+.col-sm-6 img {
+    margin-top: 20px;
+}
+
+img {
+    background-image: url("../img/bottomsDos1.png");
+}
+
+#resultado {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#foto {
+    width: 450px;
+    border: none;
+    color: var(--azul);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-sm-6 {
+    padding: 20px;
+}
+
+.col-sm-6 h1 {
+    margin-top: 50px;
+    font-weight: 600;
+    color: var(--azul-claro);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-sm-6 h3 {
+    margin-top: 30px;
+    color: var(--azul-claro);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.radios1 {
+    color: var(--azul);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.radios {
+    margin-left: 15px;
+    color: var(--azul);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+}
+
+.guiaTallas {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    background-color: transparent;
+    color: var(--azul);
+    padding: 5px;
+    width: 250px;
+    text-align: left;
+    border: 2px #4c586f solid;
+    border-style: dotted;
+    border-top: none;
+    transition: 0.s;
+}
+
+.active,
+.guiaTallas:hover {
+    background-color: var(--azul);
+    color: var(--gris-claro);
+}
+
+.panel {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    border: 2px #4c586f solid;
+    border-style: dotted;
+    width: 100%;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel h5 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--azul);
+    font-size: 15px;
+}
+
+.panel img {
+    width: 500px;
+}
+
+.guia-tallas:after {
+    content: '\002B';
+    font-size: 20px;
+    color: var(--azul);
+    float: right;
+    margin-left: 5px;
+}
+
+.carritoUno {
+    margin-top: 30px;
+    background-color: var(--azul);
+    color: var(--gris-claro);
+    border: none;
+    padding: 10px;
+    width: 250px;
+}
+
+.carritoUno:hover {
+    background-color: var(--gris-calido);
+    color: var(--azul);
+    box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+}
+
+.d-flex2 {
+    display: flex;
+}
+
+.modal {
+    height: 1000px;
+}
+
+@media only screen and (max-width: 800px) {
+    #resultado {
+        width: 450px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .d-flex2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .modal {
+        height: 1000px;
+    }
+}

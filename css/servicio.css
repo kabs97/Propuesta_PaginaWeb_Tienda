@@ -1,0 +1,117 @@
+    body {
+        background-image: url("../img/fondo1.png");
+    }
+    
+    .text-center h1 {
+        color: var(--azul);
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .text-center h2 {
+        color: var(--azul);
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .radios {
+        color: var(--azul);
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    #radio2 {
+        margin-left: 20px;
+    }
+    
+    #mostrar input {
+        background-color: var(--azul-claro);
+        border: none;
+        padding: 15px;
+        width: 30%;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    #mostrar input:hover {
+        background-color: var(--gris-calido);
+        color: var(--azul);
+        box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+    }
+    
+    #form {
+        border: solid 1px var(--azul-claro);
+        padding: 60px;
+    }
+    
+    #form label {
+        color: var(--azul-claro);
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+    }
+    
+    .mb-3 select {
+        width: 100%;
+        height: 40px;
+        border: solid 1px var(--gris-calido);
+    }
+    
+    #button {
+        background-color: var(--azul-claro);
+        border: none;
+        padding: 15px;
+        width: 30%;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+    
+    #button:hover {
+        background-color: var(--gris-calido);
+        color: var(--azul);
+        box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+    }
+    
+    .clientes {
+        color: var(--azul-claro);
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        background-color: #cbc5c14d;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        margin-bottom: 40px;
+    }
+    
+    p {
+        color: var(--azul);
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px !important;
+    }
+    
+    .radio1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .radio2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+    
+    @media only screen and (max-width: 760px) {
+        .mostrarBTN {
+            width: 60%;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .mostrarBTN {
+            width: 100%;
+        }
+    }

@@ -1,0 +1,29 @@
+html {
+    background-color: var(--gris);
+}
+
+.texto {
+    background-color: var(--gris);
+    margin-top: 200px;
+}
+
+.texto h1 {
+    color: var(--gris-calido);
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-center i {
+    font-size: 100px;
+    margin-bottom: 30px;
+    color: var(--gris-calido);
+}
+
+.hr1 {
+    color: var(--gris-calido);
+    border: solid 1px darkgray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    margin: auto;
+}

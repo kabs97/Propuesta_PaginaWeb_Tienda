@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.shein div {
+    font-size: 10px;
+    background-color: darkblue;
+    padding: 6px;
+}
+
+nav {
+    background-color: var(--azul-claro);
+    color: white;
+}
+
+.nav-item img {
+    height: 1.5625rem;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+#banner {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+#banner p .btn i {
+    height: 50px;
+    font-size: 4rem;
+    color: var(--azul-claro);
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.informativa {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+
+.informativa p {
+    margin-bottom: 60px;
+    margin: auto;
+    width: 50%;
+    font-size: 1.2rem;
+    color: var(--azul);
+}
+
+.informativa h4 {
+    margin-top: 35px;
+    color: var(--azul);
+    font-weight: 800;
+}
+
+#categorias {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--gris-claro);
+}
+
+#categorias h1 {
+    color: var(--azul);
+    font-size: 3rem;
+    font-weight: 100;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.categorias {
+    display: flex;
+    justify-content: center;
+}
+
+.categorias img {
+    width: 130px;
+}
+
+.text-center h3 {
+    font-size: 12px;
+    color: var(--azul);
+    margin-bottom: 60px;
+}
+
+.footer {
+    background-color: var(--azul-claro);
+    padding: 20px;
+}
+
+.footer h1 {
+    font-size: 15px;
+    color: var(--gris-claro);
+}

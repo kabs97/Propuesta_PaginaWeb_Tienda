@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>SHEIN</title>
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/variables.css">
+
+    <link rel="icon" href="img/favicon.png" type="image/png" />
+    <title>SHEIN APP</title>
+</head>
+
+<body>
+    <div id="subir" class="img">
+        <a href="../index.html"> <button type="button"> VOLVER AL INICIO</button></a>
+    </div>
+
+    <section class="container text-center">
+        <h1 class="display-2 pt-5">SHEIN APP</h1>
+
+        <hr>
+        <div class="pt-5"></div>
+        <div class="conjunto1">
+
+            <div id="sct1">
+                <h4>Clientes Regulares: </h4>
+                <select id="proveedoresSlt">
+                <option value="1">Adrian Blanco</option>
+                <option value="2">Nahomy Ávila</option>
+                <option value="3">Fabiana Santamaría</option>
+                <option value="4">Brayan Barrantes</option>
+                <option value="5">Brayan Pacheco</option>
+                <option value="6">Raquel Vásquez</option>
+                <option value="7">Karen Barrantes</option>
+                <option value="8">Shasling Carranza</option>
+                <option value="9">Jose Vásquez</option>
+                <option value="10">Estefanía Sancho</option>
+                <option value="11">Elizabeth Rodríguez</option>
+                <option value="12">Luis Diego Mora</option>
+                <option value="13">Daniel Grant</option>
+                <option value="14">Valeria Miranda</option>
+                <option value="15">Pedro Quesada</option>
+            </select>
+            </div>
+
+            <div id="sct3">
+                <label for="cantPrendasTxt">Cantidad de Prendas:</label>
+                <input type="number" id="cantPrendasTxt">
+                <button onclick="registrar()" id="registrarBtn">Registrar Prendas</button>
+                <button id="pagoBtn">Ver Pago Total</button>
+
+                <button id="restablecerBtn">Restablecer Datos</button>
+            </div>
+
+            <div id="sct4">
+                <p id="pagototal"></p>
+            </div>
+
+        </div>
+
+        <div class="conjunto2">
+
+            <div id="sct5">
+                <h1>TOTAL VENDIDO DE PRENDAS</h1>
+                <div class="botones_totales">
+                    <button id="totalPrendasBtn">TOTAL DE PRENDAS</button>
+                    <button id="totalTopsBtn" onclick="totalTops()">TOTAL TOPS</button>
+                    <button id="totalBottomsBtn">TOTAL BOTTOMS</button>
+                    <button id="totalAWBtn">TOTAL ROPA DEPORTIVA</button>
+                </div>
+                <p id="resultadoPr"></p>
+            </div>
+        </div>
+
+        <div id="sct6">
+            <button id="mayorProductorBtn">Mayor Comprador</button>
+            <button id="menorBtn">Menor Comprador</button>
+            <p id="tercerResultado"></p>
+        </div>
+
+
+        <div class="row">
+            <div class="container">
+                <table class="table" id="tabla"></table>
+            </div>
+        </div>
+
+    </section>
+
+    <div id="subir">
+        <a class="go-top" href="#subir" title="Ir al inicio" data-scroll>
+
+            <i class="fas fa-sort-up" alt="Ir arriba"></i>
+
+        </a>
+    </div>
+
+    <script src="js/funciones.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

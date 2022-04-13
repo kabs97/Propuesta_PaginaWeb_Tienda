@@ -1,0 +1,242 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h1 {
+    font-weight: 600;
+    color: var(--azul);
+    font-size: 40px;
+}
+
+.conjunto1 {
+    border: solid 1px #a2aab0;
+    padding: 20px 0 10px 0;
+    margin-bottom: 20px;
+}
+
+#sct1 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sct1 h4 {
+    font-size: 18px;
+    color: var(--azul);
+    margin: 10px;
+}
+
+#sct1 select {
+    color: var(--azul);
+    border: solid 2px var(--gris-calido);
+    border-style: dotted;
+    border-top: none;
+    width: 200px;
+}
+
+#sct2 {
+    font-size: 18px;
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
+#sct2 input {
+    margin-left: 10px;
+}
+
+#sct3 {
+    font-size: 18px;
+    color: var(--azul);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#sct3 input {
+    border: none;
+    background-color: var(--gris-claro);
+    margin: 0 5px 0 5px;
+    width: 50px;
+}
+
+#sct3 button {
+    border: none;
+    height: 29px;
+    width: 150px;
+    font-size: 13px;
+    background-color: var(--gris-claro);
+    color: var(--azul);
+}
+
+#pagoBtn,
+#restablecerBtn {
+    margin-left: 5px;
+}
+
+#sct3 button:hover {
+    background-color: var(--azul);
+    color: var(--gris-claro);
+    box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+}
+
+.conjunto2 {
+    border: solid 1px #a2aab0;
+    padding: 40px 0 30px 0;
+    margin-bottom: 20px;
+}
+
+#sct5 h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#sct5 {
+    font-size: 18px;
+    color: var(--azul);
+    margin-bottom: 20px;
+}
+
+#sct5 input {
+    margin-left: 10px;
+}
+
+#sct5 button {
+    border: none;
+    height: 29px;
+    width: 150px;
+    font-size: 13px;
+    background-color: var(--gris-claro);
+    color: var(--azul);
+}
+
+#sct5 button:hover {
+    background-color: var(--azul);
+    color: var(--gris-claro);
+    box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+}
+
+#sct5 #totalAWBtn {
+    width: 200px;
+}
+
+#sct6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sct6 button {
+    border: none;
+    height: 29px;
+    width: 150px;
+    font-size: 13px;
+    background-color: var(--gris-claro);
+    color: var(--azul);
+}
+
+#sct6 button:hover {
+    background-color: var(--azul);
+    color: var(--gris-claro);
+    box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+}
+
+#resultadoPr {
+    color: var(--azul);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#tercerResultado {
+    color: var(--azul);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#pagototal {
+    color: var(--azul);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#vendidoPorPrenda {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+table {
+    width: 85%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #a2aab0;
+    color: var(--azul);
+    padding-top: 20px;
+    text-align: center;
+}
+
+td {
+    font-size: 15px;
+    padding: 10px;
+    background-color: #a2aab0;
+    color: var(--gris-claro);
+    text-align: center;
+}
+
+.sct7 {
+    margin-bottom: 50px;
+}
+
+.go-top {
+    font-size: 50px;
+    color: var(--azul);
+    position: fixed;
+    bottom: 0em;
+    right: 0.5em;
+}
+
+.go-top img:hover {
+    transform: scale(2);
+    transition: all 0.8s;
+}
+
+.img {
+    background-image: url("../img/1.png");
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.img button {
+    margin-left: 20px;
+    border: none;
+    height: 29px;
+    width: 150px;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.548);
+    color: var(--azul);
+}
+
+.img button a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.548);
+    color: var(--azul);
+}
+
+.img button:hover {
+    background-color: var(--azul);
+    color: var(--gris-claro);
+    box-shadow: 0 5px 5px rgba(56, 56, 56, 0.13);
+}

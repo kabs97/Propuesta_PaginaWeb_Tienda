@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/fondo1.png");
+}
+
+.seleccionTops {
+    color: var(--azul);
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.container hr {
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.col-sm-4 p {
+    color: var(--gris);
+    font-size: 13px;
+}
+
+.precio {
+    border: solid 2px var(--gris-calido);
+    border-style: dotted;
+    border-top: none;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
